@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.profile p {
+    padding-top: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 2rem;
+    color: #d32f2f; /* Red color */
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    color: #d32f2f; /* Red color */
+    text-decoration: none;
+}
+
+.indeed-logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #d32f2f; /* Red color */
+    margin-bottom: 1rem;
+}
+
+.project-card, .tech-item {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+}
+
+.project-card h3, .tech-item {
+    color: #333;
+}
+
+.project-card p {
+    color: #666;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #d32f2f; /* Red color */
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact input, .contact textarea, .contact button {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #d32f2f; /* Red color */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #888;
+}
+
+footer a {
+    color: #d32f2f; /* Red color */
+    text-decoration: none;
+    margin: 0 1rem;
+}
