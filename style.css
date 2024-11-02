@@ -125,3 +125,22 @@ footer a {
     text-decoration: none;
     margin: 0 1rem;
 }
+
+/* Technologies Section */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr); /* Change to two columns on smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-grid {
+        grid-template-columns: 1fr; /* Change to one column on very small screens */
+    }
+}
